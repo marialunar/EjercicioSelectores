@@ -1,0 +1,19 @@
+.boton{
+    width: 100px;
+    height: 50px;
+    border-radius: 10%;
+}
+
+
+.boton::before{
+    content: "Pasa Por Encima";
+}
+
+.boton:hover{
+    color:white;
+    background-color: green;
+}
+
+.boton:hover::before{
+    content:"¡Hecho!";
+}
